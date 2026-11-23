@@ -26,7 +26,7 @@ models:
         description: Role the scraper searched for.
 
   - name: jobs_per_month
-    description:
+    description: Postings per month and search role; one row per month and role.
     config:
       persist_docs:
         relation: true
@@ -40,7 +40,7 @@ models:
         description: Postings counted for the role that month.
 
   - name: top_locations
-    description:
+    description: The 10 locations with the most postings.
     config:
       persist_docs:
         relation: true

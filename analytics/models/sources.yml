@@ -1,6 +1,6 @@
 sources:
   - name: raw
-    description:
+    description: Raw job posting scrapes, read from the monthly parquet files in data/raw.
     tables:
       - name: job_postings
         description: One line per job posting scrape, raw from the pipeline.
