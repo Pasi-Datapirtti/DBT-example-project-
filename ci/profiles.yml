@@ -1,0 +1,8 @@
+# ANALYTICS training
+analytics:
+  target: prod
+  outputs:
+    prod:
+      type: duckdb
+      path: ../data/prod.duckdb
+      threads: 4
