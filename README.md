@@ -26,7 +26,7 @@ A public dbt + DuckDB pipeline over ~692k real job postings, rebuilt and republi
 
 Raw postings flow through declared sources → a cleaned staging view → insight marts, with tests gating every build. The DAG below is the whole flow:
 
-![dbt dag diagram](img/dag.png)
+![dbt dag diagram](img/dag_pipeline.png)
 
 And the dbt features doing the work:
 
